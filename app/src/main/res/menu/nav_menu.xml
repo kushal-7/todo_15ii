@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <menu>
+        <item
+            android:id="@+id/lol"
+            android:icon="@drawable/camara"
+            android:title="Import" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/galary"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/slide"
+            android:icon="@drawable/vido"
+            android:title="Slide show" />
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/tool"
+            android:title="Tools" />
+    </menu>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/save"
+                android:icon="@drawable/send"
+                android:title="Save" />
+        </menu>
+    </item>
+
+</menu>
